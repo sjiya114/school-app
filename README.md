@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+<div align="center">
+	<h1>🏫 School App</h1>
+	<p>
+		<img src="https://img.shields.io/badge/Next.js-13-blue?logo=next.js" alt="Next.js" />
+		<img src="https://img.shields.io/badge/React-18-61DAFB?logo=react" alt="React" />
+		<img src="https://img.shields.io/badge/MySQL-8.0-blue?logo=mysql" alt="MySQL" />
+		<img src="https://img.shields.io/badge/Node.js-20-green?logo=node.js" alt="Node.js" />
+		<img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" />
+	</p>
+	<p><b>A modern web application for managing and displaying information about schools.</b></p>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+
+## 🚀 Tech Stack
+
+- **Frontend:** Next.js, React, CSS Modules
+- **Backend:** Node.js (API routes in Next.js)
+- **Database:** MySQL
+- **Other:** PostCSS, ESLint
+
+
+## ✨ Features
+
+- 🏫 **Add School**: Submit new schools with details and images.
+- 📋 **Show Schools**: Browse a list of all added schools with images.
+- ℹ️ **About Page**: Learn more about the application.
+- 🧭 **Navigation Bar**: Easily navigate between pages.
+- 🖼️ **Image Uploads**: Store and display school images.
+- 🔗 **API Routes**: RESTful endpoints for adding and showing schools.
+
+
+## 📁 Project Structure
+
+```text
+school-app/
+├── app/
+│   ├── AddSchool/
+│   │   └── page.js
+│   ├── ShowSchools/
+│   │   └── page.js
+│   ├── api/
+│   │   ├── addSchool/route.js
+│   │   └── showSchool/route.js
+│   ├── component/
+│   │   ├── About.js
+│   │   └── Navbar.js
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+├── config/
+│   └── db.js
+├── public/
+│   └── schoolImages/
+├── package.json
+├── next.config.mjs
+├── jsconfig.json
+├── postcss.config.mjs
+├── eslint.config.mjs
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> **💡 Tip:** For the best experience, use the latest version of Node.js and a modern browser.
 
-## Learn More
+1. **Install dependencies:**
+	```bash
+	npm install
+	```
+2. **Run the development server:**
+	```bash
+	npm run dev
+	```
+3. **Open your browser:**
+	Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📜 Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `npm run dev` — Start the development server
+- `npm run build` — Build for production
+- `npm start` — Start the production server
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧰 Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Node.js](https://nodejs.org/)
+- [MySQL](https://www.mysql.com/)
+- [CSS Modules]
+
+
+## 🗂️ Folder Descriptions
+
+- `app/` — Main application pages and API routes
+- `component/` — Reusable React components
+- `config/` — Database configuration
+- `public/schoolImages/` — Uploaded school images
+
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+
+## 📝 License
+
+This project is licensed under the MIT License.
