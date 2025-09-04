@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 
-function page() {
+function Page() {
      const { register,handleSubmit}=useForm();
      const onSubmit=async(data)=>
      {
@@ -56,4 +56,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
